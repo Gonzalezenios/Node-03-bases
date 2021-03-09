@@ -1,7 +1,7 @@
-const logica = (base) => {
+const logica = (base, limite) => {
     let resultado = '';
 
-for (let index = 1; index < 10; index++) {
+for (let index = 1; index < limite; index++) {
     resultado += `${base} * ${index} = ${base * index}\n`
 }
     return resultado;
